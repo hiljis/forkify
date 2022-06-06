@@ -132,17 +132,21 @@ const controlAddRecipe = async function (newRecipe) {
   }
 }
 
+const newFeature = function () {
+  console.log('Welcome to the app!');
+}
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
-  recipeView.renderMessage();
+  // recipeView.renderMessage();
   // resultsView.renderMessage();
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('TEST');
+  newFeature();
 };
 init();
 
