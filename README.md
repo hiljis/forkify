@@ -2,4 +2,4 @@
 
 Recipe application with custom recipe uploads.
 
-URL: hiljis-forkify.netlify.app
+URL: [hiljis-forkify.netlify.app](hiljis-forkify.netlify.app)
